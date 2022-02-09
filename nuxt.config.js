@@ -38,5 +38,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  publicRuntimeConfig: {
+    configCatSDKKey: process.env.CONFIG_CAT_SDK_KEY,
+  },
 }
